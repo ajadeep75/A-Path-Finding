@@ -24,6 +24,7 @@ A) Look for the lowest F cost square on the open list. We refer to this as the c
 B). Switch it to the closed list.
 
 C) For each of the 8 squares adjacent to this current square …
+
 If it is not walkable or if it is on the closed list, ignore it. Otherwise do the following.
 
 If it isn’t on the open list, add it to the open list. Make the current square the parent of this square. Record the F, G, and H costs of the square.
