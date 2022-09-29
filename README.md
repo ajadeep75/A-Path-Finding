@@ -1,4 +1,4 @@
-# A-Path-Finding
+# Astar-Path-Finding
 Data Structures
 
 A-star path finding can be used to find a way to go from one spot to another around barriers. This example just draws the path, based on the coordinates returned.
