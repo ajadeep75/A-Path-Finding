@@ -25,7 +25,9 @@ B). Switch it to the closed list.
 
 C) For each of the 8 squares adjacent to this current square …
 If it is not walkable or if it is on the closed list, ignore it. Otherwise do the following.
+
 If it isn’t on the open list, add it to the open list. Make the current square the parent of this square. Record the F, G, and H costs of the square.
+
 If it is on the open list already, check to see if this path to that square is better, using G cost as the measure. A lower G cost means that this is a better path. If so, change the parent of the square to the current square, and recalculate the G and F scores of the square. If you are keeping your open list sorted by F score, you may need to resort the list to account for the change.
 
 D) Stop when you:
